@@ -1,0 +1,11 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent" android:layout_height="match_parent"><LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content" android:orientation="vertical" android:padding="24dp">
+<TextView android:layout_width="match_parent" android:layout_height="wrap_content" android:text="AGE IN MOTION" android:textSize="26sp" android:textStyle="bold" android:textColor="#000000" />
+<TextView android:layout_width="match_parent" android:layout_height="wrap_content" android:text="Make the passage of time visible." android:textSize="14sp" android:textColor="#666666" android:paddingTop="6dp" android:paddingBottom="28dp" />
+<TextView android:layout_width="match_parent" android:layout_height="wrap_content" android:text="Date of birth" android:textStyle="bold" />
+<DatePicker android:id="@+id/dob" android:layout_width="match_parent" android:layout_height="wrap_content" android:calendarViewShown="true" />
+<TextView android:layout_width="match_parent" android:layout_height="wrap_content" android:text="Expected lifespan" android:textStyle="bold" android:paddingTop="20dp" />
+<Spinner android:id="@+id/lifespan" android:layout_width="match_parent" android:layout_height="48dp" />
+<TextView android:layout_width="match_parent" android:layout_height="wrap_content" android:text="Widget style" android:textStyle="bold" android:paddingTop="20dp" />
+<RadioGroup android:id="@+id/mode" android:layout_width="match_parent" android:layout_height="wrap_content"><RadioButton android:id="@+id/original" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="Original counter" android:checked="true" /><RadioButton android:id="@+id/progress_mode" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="Life progress" /></RadioGroup>
+<Button android:id="@+id/save" android:layout_width="match_parent" android:layout_height="52dp" android:text="SAVE" android:textStyle="bold" android:layout_marginTop="28dp" />
+</LinearLayout></ScrollView>

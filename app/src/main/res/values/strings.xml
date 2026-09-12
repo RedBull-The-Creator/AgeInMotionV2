@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Age in Motion</string>
+    <string name="widget_name">Age in Motion</string>
+    <string name="configure_title">Age in Motion</string>
+    <string name="dob_label">Date of birth</string>
+    <string name="lifespan_label">Expected lifespan</string>
+    <string name="mode_label">Widget style</string>
+    <string name="mode_original">Original counter</string>
+    <string name="mode_progress">Life progress</string>
+    <string name="save">Save</string>
+</resources>
